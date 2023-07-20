@@ -112,9 +112,9 @@ function App() {
             if (response.ok) {
                 response.json()
                 .then(user => setCurrentUser(user))
+                history.push('/user_page')
             }
         })
-        history.push('/user_page')
     }
 
     function logout() {
@@ -215,14 +215,13 @@ function App() {
 
 
     return(
-        <div className='app'>
-            <h1/>
+        <div className='app overflow-hidden h-full w-full'>
             <div>
                 <Nav currentUser={currentUser} logout={logout}/>
             </div>
             <Switch>
                 <Route exact path="/">
-                    <Home cards={cards}/>
+                    <Home cards={cards} CardFocus={CardFocus}/>
                 </Route>
                 <Route exact path="/login">
                     { !currentUser ? <Login attemptLogin={attemptLogin} /> : null }
@@ -238,7 +237,7 @@ function App() {
                     <CardGallery cards={filteredCards} CardFocus={CardFocus}/>
                 </Route>
                 <Route exact path="/cardfocus">
-                    <CardSelected focusCard={focusCard} ArtistFocus={ArtistFocus}/>
+                    <CardSelected focusCard={focusCard} ArtistFocus={ArtistFocus} SetFocus={SetFocus}/>
                 </Route>
                 <Route exact path="/artists">
                     <ArtistList artists={artists} ArtistFocus={ArtistFocus}/>

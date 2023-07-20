@@ -23,9 +23,15 @@ function SetSelected({focusSet, CardFocus}) {
     })
 
     return (
-        <div className="game-focus">
-            <h2 className="text-white">{selectedSet.name}</h2>
-            {cards}
+        <div className="min-h-screen bg-[url('https://c4.wallpaperflare.com/wallpaper/734/586/397/pokemon-unown-pokemon-unown-f-pokemon-wallpaper-thumb.jpg')] bg-no-repeat bg-right-bottom">
+            <div className="bg-yellow-400">
+                <span className="text-black lg:flex justify-center font-bold lg:text-7xl py-3 animate-pulse">
+                    {selectedSet.name}
+                </span>
+            </div>
+            <div className="lg:flex justify-center pt-10 gap-10">
+                {cards}
+            </div>
         </div>
     )
 }

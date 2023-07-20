@@ -25,11 +25,11 @@ function Login({attemptLogin}) {
                 handleSubmit(event)
                 setLoginSucessful(loginSuccessful => !loginSuccessful)
                 })}>
-                    <div className="bg-yellow-400 border-red-950 md:border-4 h-32">
-                        <label className="text-red-950 lg:flex justify-center">Username</label>
-                        <input className="lg:flex text-center w-72" type="text" onChange={handleChangeUsername} value={username} placeholder="Username Goes Here!"/>
-                        <label className="text-red-950 lg:flex justify-center">Password</label>
-                        <input className="lg:flex text-center w-72" type="text" onChange={handleChangePassword} value={password} placeholder="Password Goes Here!"/>
+                    <div className="bg-yellow-400 border-red-950 md:border-4 h-40">
+                        <label className="text-red-950 lg:flex justify-center lg:text-2xl">Username</label>
+                        <input className="lg:flex text-center w-72 lg:text-2xl" type="text" onChange={handleChangeUsername} value={username} placeholder="Username Goes Here!"/>
+                        <label className="text-red-950 lg:flex justify-center lg:text-2xl">Password</label>
+                        <input className="lg:flex text-center w-72 lg:text-2xl" type="text" onChange={handleChangePassword} value={password} placeholder="Password Goes Here!"/>
                         <button className="text-red-950 lg:flex" type="submit">Login</button>
                     </div>
                 </form>}

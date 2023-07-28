@@ -10,12 +10,13 @@ A lesson that could be taken away from this project is that the purpose of a pro
 
 # Set-up
 
-Clone this repository to your local machine
-Install the required dependencies pipenv install & shell 
-Set up the database by executing the "seed.py" script (make sure you are in the "server" directory when doing this)
-Then in the same terminal, run the application by executing the "app.py" script
-In a new terminal, install the required dependencies npm install in the root directory
-In that same terminal, run the application by executing "npm start"
+* Clone this repository to your local machine
+* Install the required dependencies pipenv install & shell 
+* Set up the database by executing the "seed.py" script (make sure you are in the "server" directory when doing this)
+* Then in the same terminal, run the application by executing the "app.py" script
+* In a new terminal, install the required dependencies npm install in the root directory
+* In that same terminal, run the application by executing "npm start"
+
 Enjoy!
 
 # Contact

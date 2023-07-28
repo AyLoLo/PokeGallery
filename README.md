@@ -8,6 +8,11 @@ The intent of this website is to display a gallery, where a user can browse thro
 
 A lesson that could be taken away from this project is that the purpose of a project is to be made clear. Thinking with the mindset of a general user, I have to constantly ask myself what are some options/functions that I would want from a site as I explore it. I as a generla user do not want to be overloaded with features or information that would not be relevant to what I am originally searching for or using this website for. In other words, sometimes it's best to keep a project simple as long as it meets the required intended use. 
 
+# Features
+* Search a card in the Card Gallery page via the card name or by it's card type (Pokemon, Supporter, Item, Trainer)
+* Click on a card image, set name, or artist name to direct a user to page that displays details associated to the selected element
+* Sign a user in, or log a user in, to have access to a page in which a user can add a card, an artwork, and then tie the appropiate two to have it properly display on the site 
+
 # Set-up
 
 * Clone this repository to your local machine

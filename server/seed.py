@@ -52,6 +52,7 @@ with app.app_context():
     artists.append(Artist(first_name="Mister", last_name="zig"))
     artists.append(Artist(first_name="Mitsuhiro", last_name="Arita"))
     artists.append(Artist(first_name="Sanosuke", last_name="Sakuma"))
+    artists.append(Artist(first_name="Mitsuhiro", last_name="Arita"))
 
     artworks = []
     artworks.append(Artwork(artist_id=1, card_id=1))

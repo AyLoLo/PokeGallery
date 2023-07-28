@@ -34,13 +34,17 @@ function App() {
 
   const [formData, setFormData] = useState({
         name: "Smeargle",
-        image: "https://product-images.tcgplayer.com/fit-in/656x656/107242.jpg",
+        image: "https://i.ibb.co/ZdYKjzs/Smeargle.jpg",
         card_type: "Pokemon",
-        set_id: 999
+        set_id: 7
   })
 
   const [newArtwork, setNewArtwork] = useState({})
-  const [newArtist, setNewArtist] = useState({})
+  
+  const [newArtist, setNewArtist] = useState({
+        first_name: "Smeargle",
+        last_name: "Himself!"
+  })
 
   const [focusCard, setFocusCard] = useState('')
   const [focusArtist, setFocusArtist] = useState('')

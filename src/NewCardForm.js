@@ -51,13 +51,13 @@ function NewCardForm({updateFormData, updateNewArtwork, updateNewArtist, establi
                 <h2 className="text-white font-bold lg:text-3xl py-3 px-5 animate-pulse">Add A New Card!</h2>
                     <div className="text-white border-yellow-400 md:border-4 w-56 py-3 px-3">
                         <label for="card-name">Card Name</label><br></br>
-                        <input onChange={updateFormData} type="text" id="name" name="name"></input><br></br>
+                        <input className="text-black" onChange={updateFormData} type="text" id="name" name="name"></input><br></br>
                         <label for="card-image">Card Image URL</label><br></br>
-                        <input onChange={updateFormData} type="text" id="image" name="image"></input><br></br>
+                        <input className="text-black" onChange={updateFormData} type="text" id="image" name="image"></input><br></br>
                         <label for="card-type">Card Type</label><br></br>
-                        <input onChange={updateFormData} type="text" id="card_type" name="type"></input><br></br>
+                        <input className="text-black" onChange={updateFormData} type="text" id="card_type" name="type"></input><br></br>
                         <label for="set-id">Booster Set ID</label><br></br>
-                        <input onChange={updateFormData} type="number" id="set_id" name="set_id"></input><br></br>
+                        <input className="text-black" onChange={updateFormData} type="number" id="set_id" name="set_id"></input><br></br>
                         <button type="submit">Add New Card</button>
                     </div>
                 </form>}

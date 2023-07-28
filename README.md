@@ -24,6 +24,14 @@ A lesson that could be taken away from this project is that the purpose of a pro
 
 Enjoy!
 
+![Screenshot (39)](https://github.com/AyLoLo/PokeGallery/assets/128417036/8bf6e15e-c97c-4f9c-a0e7-36158f6b34d8)
+![Screenshot (41)](https://github.com/AyLoLo/PokeGallery/assets/128417036/cb9fe509-e4d9-45ec-b017-c8459eed3ccf)
+![Screenshot (43)](https://github.com/AyLoLo/PokeGallery/assets/128417036/dcec3d87-e4a8-46ad-b878-1d746f26fc0d)
+![Screenshot (44)](https://github.com/AyLoLo/PokeGallery/assets/128417036/f5195b42-72c4-4b32-ad88-7191940a5e17)
+![Screenshot (45)](https://github.com/AyLoLo/PokeGallery/assets/128417036/a9cf4f6f-71d1-4051-9405-ea0ea4325b60)
+![Screenshot (46)](https://github.com/AyLoLo/PokeGallery/assets/128417036/f942da6f-70e0-422c-8a4e-c1a964ee32ab)
+
+
 # Contact
 
 Created by Anthony Lopez
